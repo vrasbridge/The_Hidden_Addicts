@@ -1,0 +1,218 @@
+body{
+  font-family: "Gloria Hallelujah, Cursive";
+  margin: 0;
+  padding: 0;
+  background-color: #696969;
+}
+div {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+header {
+  background-color: #696969;
+}
+
+.wrapper {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  height: 150px;
+}
+.title {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 3px;
+  text-align: center;
+}
+
+  h1 {
+    color: white;
+    font-family: Gloria Hallelujah;
+    font-size: 30px;
+  }
+  h2{
+    color: #bbbbbb;
+    font-family: Gloria Hallelujah;
+    font-size: 15px;
+  }
+  .dropbtn {
+      background-color: #696969;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      min-width: 200px;
+    }
+
+  .dropdown {
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #696969;
+        color: white;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+
+    }
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+  }
+  .dropdown-content a:hover {
+    background-color: turquoise;
+    color: #696969;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: turquoise;
+}
+
+#About {
+  align-items: center;
+  justify-content:center;
+}
+
+#work {
+  align-items: center;
+  justify-content: center;
+}
+
+#feelingfancy {
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Team {
+  font-family: Gloria Hallelujah;
+  color: white;
+  text-align: left;
+  margin-left: auto;
+  font-size:40px;
+}
+
+.work {
+  font-family: Gloria Hallelujah;
+  color: white;
+  text-align: left;
+  margin-left: auto;
+  font-size:40px;
+}
+
+
+.row{
+  margin: 20px;
+  padding-bottom: 103px;
+}
+
+.col-md-3 .col-sm-2 .col-xs-1{
+  background-color: white;
+  color: #696969;
+  font-size: 20px;
+  font-family:Gloria Hallelujah;
+  margin:30px;
+  object-fit: contain;
+}
+
+.col-sm-2{
+  background-color: white;
+  color: #696969;
+  font-size: 20px;
+  font-family:Gloria Hallelujah;
+  margin:30px;
+  object-fit: contain;
+}
+
+.col-xs-1{
+  background-color: white;
+  color: #696969;
+  font-size: 20px;
+  font-family:Gloria Hallelujah;
+  margin:30px;
+  object-fit: contain;
+}
+.teamphoto {
+  padding: 15px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.coffeehouse {
+  padding: 15px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.blurb {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #696969;
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.4));
+  color: white;
+  text-align: center;
+}
+.fa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.icons {
+  padding-top:25px;
+  padding-bottom: 25px;
+  align-items: center;
+  justify-content:center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 25px;
+  }
+
+.fa-twitter {
+        background: #55ACEE;
+        color: white;
+        margin-left: 25px;
+      }
+
+.fa-instagram {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+    color: white;
+    margin-left:25px;
+}

@@ -1,0 +1,17 @@
+<!IndependantCoffeeShopsDescriptions- CSS for this page>
+
+
+<style>
+  {background-color:black;}
+*{font-family:'Book Antiqua';}
+body{ background-color: black;}
+
+.pagetitle {font-size: 50px; text-align: center;color: white;}
+.title {font-size: 30px; text-align: center; color:#83B2B9}
+.img {width: 250px; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;}
+.Subtitle {font-size: 20px; color: #57A8B4; text-align: center;}
+.description {color: grey; text-align: center; font-size: 10px;}
+.list {color: #015B68; text-align: center; list-style-type: none; font-size: 15px;}
+
+
+</style>
